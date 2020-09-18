@@ -37,10 +37,8 @@ $(document).ready(function () {
     $(window).on('scroll', function (event) {
         if ($(this).scrollTop() > 600) {
             $('.back-to-top').fadeIn(200);
-            $('.socialFixed').fadeIn(200);
         } else {
             $('.back-to-top').fadeOut(200);
-            $('.socialFixed').fadeOut(200);
         }
     });
 
@@ -141,7 +139,7 @@ $(document).ready(function () {
             },
             srcAction: 'iframe_src',
         }
-    }); 
+    });
 
     $('[data-toggle="popover"]').popover({
         container: 'body',
